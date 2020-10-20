@@ -70,3 +70,44 @@ function validation(){
 			text.style.color = "red"
 		}
 }
+
+
+	$('.video-a').on('click', function(){
+		$('.video-link').removeClass('video-a-activ');
+		$(this).parent().addClass('video-a-activ');
+	});
+
+	$('.urok-x').on('click', function(){
+		$('.video__block').removeClass('activ-box');
+		$('.urok-x-a').addClass('activ-box');
+	});
+
+	$('.urok-m').on('click', function(){
+		$('.video__block').removeClass('activ-box');
+		$('.urok-m-a').addClass('activ-box');
+	});
+
+	$('.urok-f').on('click', function(){
+		$('.video__block').removeClass('activ-box');
+		$('.urok-f-a').addClass('activ-box');
+	});
+
+	$('.urok-b').on('click', function(){
+		$('.video__block').removeClass('activ-box');
+		$('.urok-b-a').addClass('activ-box');
+	});
+
+	$('.urok-a').on('click', function(){
+		$('.video__block').removeClass('activ-box');
+		$('.urok-a-a').addClass('activ-box');
+	});
+
+	$('.urok-i').on('click', function(){
+		$('.video__block').removeClass('activ-box');
+		$('.urok-i-a').addClass('activ-box');
+	});
+
+	$('.urok-g').on('click', function(){
+		$('.video__block').removeClass('activ-box');
+		$('.urok-g-a').addClass('activ-box');
+	});

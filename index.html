@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Znatok.uz</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -16,21 +16,21 @@
 		<div class="header__top ">
 			<div class="container header__top-fle">
 			<div class="header__logo">
-				<a class="header__logo-a" href="#">Знаток</a>
+				<a class="header__logo-a" href="index.html">Znatok</a>
 			</div>
 			<nav class="menu">
 				<ul class="menu__list">
-					<li class="menu__items"><a class="menu__link upen" href="#">Новости</a></li>
-					<li class="menu__items"><a class="menu__link upen" href="#">Видео уроки</a></li>
+					<li class="menu__items"><a class="menu__link upen" href="news.html">Новости</a></li>
+					<li class="menu__items"><a class="menu__link upen" href="video-urok.html">Видео уроки</a></li>
 					<li class="menu__items"><a class="menu__link upen" href="#">Учетилям</a></li>
 					<li class="menu__items"><a class="menu__link upen" href="#">Ученикам</a></li>
 					<li class="menu__items"><a class="menu__link upen" href="#">Олимпиады</a></li>					
 				</ul>
-				<div class="menu__btn">
+				<button class="menu__btn">
 					<span></span>
 					<span></span>
 					<span></span>
-				</div>
+				</button>
 			</nav>
 
 			<div class="header__lang">
@@ -41,10 +41,26 @@
 			</div>
 	        <div class="header__btn">
 	        	<a class="header__btn-entrance upen" href="#">Вход</a>
-	        	<a class="header__btn-reg upen" href="#">Регистрация</a>
+	        	<a class="header__btn-reg upen" href="reg.php">Регистрация</a>
 	        </div></div>
 		</div>
-		<div class="header__slider"> 
+
+		<div class="menu-mobi">
+			<ul class="menu-mobi__list">
+					<li class="menu-mobi__items"><a class="menu-mobi__link upen" href="news.html">Новости</a></li>
+					<li class="menu-mobi__items"><a class="menu-mobi__link upen" href="video-urok.html">Видео уроки</a></li>
+					<li class="menu-mobi__items"><a class="menu-mobi__link upen" href="#">Учетилям</a></li>
+					<li class="menu-mobi__items"><a class="menu-mobi__link upen" href="#">Ученикам</a></li>
+					<li class="menu-mobi__items"><a class="menu-mobi__link upen" href="#">Олимпиады</a></li>	
+					<li class="menu-mobi__items btn-m"><a class="menu-mobi__link upen" href="#">Вход</a></li>
+					<li class="menu-mobi__items btn-m"><a class="menu-mobi__link upen" href="#">Регистрация</a></li>				
+			</ul>
+			<div class="menu-close">				
+			</div>
+		</div>
+	</header>		
+
+	<div class="header__slider"> 
 			
 			<div class="slider">
 				<img class="slider-img" src="images/1.jpg">
@@ -55,28 +71,15 @@
 				<img class="slider-img" src="images/6.jpg">
 			</div>
 		</div>	
-		<div class="menu-mobi">
-			<ul class="menu-mobi__list">
-					<li class="menu-mobi__items"><a class="menu-mobi__link upen" href="#">Новости</a></li>
-					<li class="menu-mobi__items"><a class="menu-mobi__link upen" href="#">Видео уроки</a></li>
-					<li class="menu-mobi__items"><a class="menu-mobi__link upen" href="#">Учетилям</a></li>
-					<li class="menu-mobi__items"><a class="menu-mobi__link upen" href="#">Ученикам</a></li>
-					<li class="menu-mobi__items"><a class="menu-mobi__link upen" href="#">Олимпиады</a></li>	
-					<li class="menu-mobi__items btn-m"><a class="menu-mobi__link upen" href="#">Вход</a></li>
-					<li class="menu-mobi__items btn-m"><a class="menu-mobi__link upen" href="#">Регистрация</a></li>				
-			</ul>
-			<div class="menu-close">				
-			</div>
-		</div>
-	</header>
 
 	 
 
 
 	<!-- Секция с информацие -->
-  <section class="section__info">  	
+  <section class="section__info"> 	
   	
-  	<div class="info__block">
+  	<div class="info__block container-wid">
+  		<img class="info__block-img" src="images/ds-inf.png">
   		<div class="info__box active-acardion">
   			<h4 class="info__box-title"><span> 1.</span> Зачем создан сайт?</h4>
   			<p class="info__box-text">НА ЭТОМ САЙТЕ РЕГУЛЯРНО ПРОВОДИТСЯ ОНЛАЙН-ОЛИМПИАДЫ, ПО СЕМи ПРЕДМЕТам: МАТЕМАТИКА, ФИЗИКА, ХИМИЯ, БИОЛОГИЯ, АНГЛИЙСКИЙ ЯЗЫК, ИСТОРИЯ И ГЕОГРАФИЯ.</p>
@@ -84,19 +87,18 @@
   		<div class="info__box">
   			<h4 class="info__box-title"><span> 2.</span>Для кого этот сайт?</h4>
   			<p class="info__box-text">
-  				Этот сайт подойдёт как ученикам так и учетилям. Текст текст текст
+  				Этот сайт подойдёт как ученикам так и учетилям. А для учителей разработки уроков, рефераты, презентации, таблицы и другие. А также на этом сайте можно найти видео уроки по разным предметам. 
   			</p>
   		</div>
   		<div class="info__box">
   			<h4 class="info__box-title"><span> 3.</span>Как часто будут проводится олимпиады?</h4>
-  			<p class="info__box-text">Текст текст текст текст  текст Текст текст текст текст  текст Текст текст текст текст  текст Текст текст текст текст  текст Текст текст текст текст  текст</p>
+  			<p class="info__box-text">Раз в месяце проводится олимпиада. Все вопросы по школьной программе.</p>
   		</div>
   		<div class="info__box">
   			<h4 class="info__box-title"><span> 4.</span>Что я получу после олимпиады?</h4>
-  			<p class="info__box-text">Вы получите диплом Текст текст текст текст  текст</p>
+  			<p class="info__box-text">После олимпиады победители получают диплом. После каждой четверти и  в конце года объявляются рейтинг учеников и школ.А в дальнейшем планируем денежные вознаграждения.</p>
   		</div>
-  	</div>
-  	
+  	</div>  	
   	
   </section> 
 
@@ -186,7 +188,9 @@
 					<button class="contact__form-btn" type="submit">отправить</button>
 				</form>
   				</div>
-  				<div class="contact__info">Какаята информация в будующем</div>
+  				<div class="contact__info">
+  					<p class="contact__info-p">Сайт находится в тестовом режиме если обнаружите какую то неисправность или хотите предложить идею пишите нам. </p>
+  				</div>
   			</div>
   		</div>
   	</section>
