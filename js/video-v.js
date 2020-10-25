@@ -1,3 +1,5 @@
+//Код отвечает за работу видео на сайте 
+
 function findVideos() {
     let videos = document.querySelectorAll('.video-v');
 
