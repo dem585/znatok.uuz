@@ -1,0 +1,72 @@
+*{
+	box-sizing: border-box;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	 font-family: 'Roboto', sans-serif; 
+	 font-size: 16px;
+	 min-height: 100vh;
+	 flex-direction: column;
+	 display: flex;	 
+}
+
+.container{
+	max-width: 1400px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.container-wid{
+	max-width: 1200px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.upen{
+	text-transform: uppercase;
+}
+
+.margin-t{
+	margin-left: 40px;
+	font-size: 36px;
+    line-height: 44px;
+    text-transform: uppercase;
+}
+
+.title-ce{
+	font-size: 28px;
+	line-height: 36px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.color-section{
+	padding: 70px 0;
+	background-color: #29A273;
+}
+
+
+
+::-webkit-input-placeholder { /* Chrome */
+color: #fff;
+opacity: 0.8;
+}
+
+
+.bg-img{
+	background-image: url(../images/bg-olimp.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.none-dis{
+	display: none;
+}

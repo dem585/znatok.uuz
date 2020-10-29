@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Znatok.uz</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.min.css">
+</head>
+<body>
+
+
+	<!-- Шапка сайта  -->
+	<header class="header">
+		<div class="header__top ">
+			<div class="container header__top-fle">
+			<div class="header__logo">
+				<a class="header__logo-a" href="index.html">Znatok</a>
+			</div>
+			<nav class="menu">
+				<ul class="menu__list">
+					<li class="menu__items"><a class="menu__link upen" href="news.html">Новости</a></li>
+					<li class="menu__items"><a class="menu__link upen" href="video-urok.html">Видео уроки</a></li>
+					<li class="menu__items"><a class="menu__link upen" href="#">Учетилям</a></li>
+					<li class="menu__items"><a class="menu__link upen" href="#">Ученикам</a></li>
+					<li class="menu__items"><a class="menu__link upen" href="olimpiad.html">Олимпиады</a></li>					
+				</ul>
+				<button class="menu__btn">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+			</nav>
+
+			<div class="header__lang">
+				<p class="lang-ru lang">РУ</p>
+				<ul class="lang__list">
+					<li><a href="#" class="lang-uz lang">UZ</a></li>				
+				</ul>
+			</div>
+	        <div class="header__btn">
+	        	<a class="header__btn-entrance upen" href="sign-in.html">Вход</a>
+	        	<a class="header__btn-reg upen" href="signup.html">Регистрация</a>
+	        </div></div>
+		</div>
+
+		<div class="menu-mobi">
+			<ul class="menu-mobi__list">
+					<li class="menu-mobi__items"><a class="menu-mobi__link upen" href="news.html">Новости</a></li>
+					<li class="menu-mobi__items"><a class="menu-mobi__link upen" href="video-urok.html">Видео уроки</a></li>
+					<li class="menu-mobi__items"><a class="menu-mobi__link upen" href="#">Учетилям</a></li>
+					<li class="menu-mobi__items"><a class="menu-mobi__link upen" href="#">Ученикам</a></li>
+					<li class="menu-mobi__items"><a class="menu-mobi__link upen" href="olimpiad.html">Олимпиады</a></li>	
+					<li class="menu-mobi__items btn-m"><a class="menu-mobi__link upen" href="sign-in.html">Вход</a></li>
+					<li class="menu-mobi__items btn-m"><a class="menu-mobi__link upen" href="signup.html">Регистрация</a></li>				
+			</ul>
+			<div class="menu-close">				
+			</div>
+		</div>
+	</header>
+
+	<div class="test__info">
+		<div class="test__info-bg">
+		<p class="test__info-text">У вас будет 1час на решение тестов всего будет 30 тестов после того как вы нажмёте на кнопку старт пойдёт обратный отсчёт</p>
+		<button class="test__info-btn"  id="button-start">старт</button>
+		</div>
+	</div>
+
+	<section class="section__test bg-img section-footer">
+			<div class="container-wid">
+				<h3 class="test__title">название</h3>
+				<div id="timer"></div>
+
+				<div class="test__items">
+					<div class="test__box">
+						<p class="test__question"><span>1.</span>Вопрос вопрос вопрос?</p>
+						<div class="test__answer">
+							<label class="info__label">
+							<input name="x1" type="radio" value="value1" class="info__radio" name="name1" id="x-1">
+								<span class="info__fake"></span>
+								<span class="info__text">ответ</span>
+							</label>
+							<label class="info__label" >
+							<input name="x1" type="radio" value="value1" class="info__radio" name="name1" id="x-2">
+								<span class="info__fake"></span>
+								<span class="info__text">ответ</span>
+							</label>
+							<label class="info__label" >
+							<input name="x1" type="radio" value="value1" class="info__radio" name="name1" id="x-3">
+								<span class="info__fake"></span>
+								<span class="info__text">ответ</span>
+							</label>
+							<label class="info__label" >
+							<input name="x1" type="radio" value="value1" class="info__radio" name="name1" id="x-4">
+								<span class="info__fake"></span>
+								<span class="info__text">ответ</span>
+							</label>
+						</div>
+					</div>
+					<div class="test__box">
+						<p class="test__question"><span>1.</span>Вопрос вопрос вопрос Вопрос вопрос вопросВопрос вопрос вопросВопрос вопрос вопросВопрос вопрос вопросВопрос вопрос вопросВопрос вопрос вопросВопрос вопрос вопросВопрос вопрос вопросВопрос вопрос вопросВопрос вопрос вопросВопрос вопрос вопросВопрос вопрос вопрос?</p>
+						<div class="test__answer">
+							<label class="info__label">
+							<input name="x2" value="value1" type="radio" class="info__radio" name="name1" id="x-5">
+								<span class="info__fake"></span>
+								<span class="info__text">ответ</span>
+							</label>
+							<label class="info__label" >
+							<input name="x2" value="value1" type="radio" class="info__radio" name="name1" id="x-6">
+								<span class="info__fake"></span>
+								<span class="info__text">ответ</span>
+							</label>
+							<label class="info__label" >
+							<input name="x2" value="value1" type="radio" class="info__radio" name="name1" id="x-7">
+								<span class="info__fake"></span>
+								<span class="info__text">ответ</span>
+							</label>
+							<label class="info__label" >
+							<input name="x2" value="value1" type="radio" class="info__radio" name="name1" id="x-8">
+								<span class="info__fake"></span>
+								<span class="info__text">ответ</span>
+							</label>
+						</div>
+					</div>
+
+				</div>
+			</div>
+	</section>
+
+
+
+
+
+	<footer class="footer">
+  		<div class="container">
+  			<div class="footer__item">
+  				<p class="footer__polit">© 2020 Znatok</p>
+  				<div class="footer__soc">
+  					<a href="#"><img class="soc-img" src="../images/icn/fb.png"></a>
+  					<a href="#"><img class="soc-img" src="../images/icn/tg.png"></a>
+  					<a href="#"><img class="soc-img" src="../images/icn/you.png"></a>
+  				</div>
+  			</div>
+  		</div>
+  	</footer>
+	
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="../js/libs.min.js"></script>
+  <script src="../js/video.js"></script>
+  <script src="../js/main.js">  </script>
+
+</body>
+</html>	

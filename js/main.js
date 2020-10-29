@@ -41,27 +41,7 @@ $(function(){
             }
         ]		
 	});
-// Слайд олипиад в разделе олимпиады
-  $('.olimpiad__items').slick({
-		slidesToShow: 4,
-  		slidesToScroll: 1,
-  		prevArrow:'#l',
-		nextArrow:'#r',
-		responsive: [
-            {
-                breakpoint: 1000,
-                settings: {
-                    slidesToShow: 2
-                }
-            },
-            {
-                breakpoint: 650,
-                settings: {
-                    slidesToShow: 1
-                }
-            }
-        ]		
-	});
+
 
 
 // проверка коректности написания email
@@ -131,4 +111,12 @@ function validation(){
 		$('.video__block').removeClass('activ-box');
 		$('.urok-g-a').addClass('activ-box');
 	});
+
+
+	// тесты таймер и окно с кнопкой старт
+
+	$('.test__info-btn').on('click', function(){
+		$('.test__info').addClass('none-dis');
+	});
 });
+
